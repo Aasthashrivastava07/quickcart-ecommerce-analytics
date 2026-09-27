@@ -1,6 +1,6 @@
 # QuickCart — E-commerce Customer & Business Intelligence
 
-An end-to-end e-commerce analytics project using **Excel, SQL, Power BI and Generative AI** to transform order-level data into business insights.
+An end-to-end e-commerce analytics project using **Excel, SQL, Power BI and Generative AI** to transform order-level data into actionable business insights.
 
 The project follows the workflow:
 
@@ -10,9 +10,9 @@ The project follows the workflow:
 
 ## 🎯 Business Problem
 
-QuickCart wants to understand its business performance across sales, profitability, customers, returns and delivery experience.
+QuickCart wants to understand its business performance across sales, profitability, customer segments, returns and delivery experience.
 
-The project analyzes the following business questions:
+This project focuses on answering key business questions:
 
 * Which categories and cities generate the most sales?
 * Which sales channels generate the highest profit?
@@ -55,7 +55,7 @@ The Excel workbook contains the raw data, cleaned data, data dictionary, explora
 
 Excel was used as the initial data preparation and exploration layer.
 
-### Key activities
+### Key Activities
 
 * Raw data inspection
 * Data cleaning
@@ -74,7 +74,7 @@ Excel was used as the initial data preparation and exploration layer.
 
 MySQL-compatible SQL was used to perform structured business analysis on the QuickCart order data.
 
-### Analysis performed
+### Analysis Performed
 
 1. Executive KPIs
 2. Monthly sales and profit
@@ -95,11 +95,11 @@ MySQL-compatible SQL was used to perform structured business analysis on the Qui
 
 # 📈 3. Power BI — Business Intelligence Dashboards
 
-Two Power BI dashboards were created to present the analytical results from different business perspectives.
+Two Power BI dashboards were created to analyze QuickCart's business performance from executive, customer and operational perspectives.
 
 ## Dashboard 1 — Executive Overview
 
-The executive dashboard provides a high-level view of QuickCart's business performance.
+The executive dashboard provides a high-level view of overall business performance.
 
 ### KPIs
 
@@ -127,7 +127,7 @@ The executive dashboard provides a high-level view of QuickCart's business perfo
 
 ### Dashboard Preview
 
-![QuickCart Executive Overview](Rename executive dashboard screenshot)
+![QuickCart Executive Overview](powerbi/screenshots/powerbi-dashboard-1-executive-overview.png)
 
 ---
 
@@ -151,7 +151,15 @@ The second dashboard focuses on customer behavior and operational performance.
 
 ### Dashboard Preview
 
-![QuickCart Customer & Operations](Rename customer operations screenshot)
+![QuickCart Customer & Operations](powerbi/screenshots/powerbi-dashboard-2-customer-operations.png)
+
+---
+
+## 📁 Power BI File
+
+[View Power BI Dashboard File](powerbi/QuickCart_PowerBI_Dashboards.pbix)
+
+> The repository also includes dashboard screenshots for quick viewing without requiring Power BI Desktop.
 
 ---
 
@@ -197,7 +205,7 @@ GenAI was used as an **interpretation layer on top of validated SQL and Power BI
 
 It was not used to generate the underlying analytical calculations.
 
-### GenAI was used for:
+### GenAI Use Cases
 
 * Executive summaries
 * Root-cause exploration
@@ -257,6 +265,8 @@ quickcart-ecommerce-analytics/
 │   └── QuickCart_SQL_Analysis_Validated.sql
 │
 ├── powerbi/
+│   ├── QuickCart_PowerBI_Dashboards.pbix
+│   │
 │   └── screenshots/
 │       ├── powerbi-dashboard-1-executive-overview.png
 │       └── powerbi-dashboard-2-customer-operations.png
@@ -290,11 +300,10 @@ The project connects:
 
 **Data Preparation → Querying → Visualization → Interpretation**
 
-The resulting analysis can help identify business performance patterns, areas requiring investigation and metrics that management can monitor.
+The analysis helps identify business performance patterns, areas requiring investigation and metrics that can be monitored by business teams.
 
 ---
 
 # 👤 Skills Demonstrated
 
 **Excel • SQL • Data Analysis • Power BI • DAX • Data Visualization • Business Intelligence • Generative AI • GitHub**
-
