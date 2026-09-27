@@ -127,7 +127,7 @@ The executive dashboard provides a high-level view of QuickCart's business perfo
 
 ### Dashboard Preview
 
-![QuickCart Executive Overview](powerbi/screenshots/powerbi-dashboard-1-executive-overview.png)
+![QuickCart Executive Overview](Rename executive dashboard screenshot)
 
 ---
 
@@ -151,7 +151,7 @@ The second dashboard focuses on customer behavior and operational performance.
 
 ### Dashboard Preview
 
-![QuickCart Customer & Operations](powerbi/screenshots/powerbi-dashboard-2-customer-operations.png)
+![QuickCart Customer & Operations](Rename customer operations screenshot)
 
 ---
 
